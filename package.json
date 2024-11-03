@@ -1,0 +1,19 @@
+{
+  "name": "pieces-os",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "author": "Nekohy",
+  "private": true,
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.2",
+    "@grpc/proto-loader": "^0.7.13",
+    "@whatwg-node/server": "^0.9.50",
+    "dotenv": "^16.4.5",
+    "itty-router": "^5.0.18"
+  }
+}
